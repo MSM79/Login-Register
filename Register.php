@@ -23,6 +23,9 @@
      </form>
    </div>
      </div>
+     <?php
+  include('footer.php');
+  ?>
       <script>
       function val() {
         alert("ثبت نام با موفقیت انجام شد");
