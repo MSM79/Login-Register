@@ -18,13 +18,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #fff;
+  background: #f8f8f8;
   height: 100px;
   padding: 0 2%;
   color: #333;
   margin-left: 10%;
 }
 
+.size {
+	height: 150px;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
 .logo span {
   margin-right: 15px;
   font-size: 18px;
@@ -45,36 +50,40 @@ header {
   transition: background-color 300ms;
 }
 
-header a {
+.feu a {
   margin-right: 10px;
   cursor: pointer;
-  width:8%;
+  width: 8%;
   padding: 5px 2%;
   text-align: center;
   transition: 0.4s;
-	text-decoration: none;
-	color: #fff;
+  text-decoration: none;
+  color: #fff;
+}
+
+.feu a:hover {
+  background: #333;
+  border-radius: 50px;
+  transform: translateY(5px);
 }
 
 .feu {
-	width: 60%;
+  width: 60%;
 }
+
 header img {
   border-radius: 100%;
   vertical-align: middle;
 }
 
-header a:hover {
-  background: #333;
-  border-radius: 50px;
-  transform: translateY(5px);
 }
 
 footer {
   background-color: #2b2b2b;
   height: 200px;
   color: #f2f2f2;
-  padding: 10px;
+  padding: 30px;
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -98,7 +107,7 @@ footer {
 
 .reg form input[type=text], input[type=email], input[type=password] {
   padding: 8px 15px;
-	font-size: 16px;
+  font-size: 16px;
   border-radius: 20px;
   margin: 7px;
   border: 1px solid #c2c2c2;
@@ -139,26 +148,26 @@ footer {
 .info {
   display: flex;
   flex-direction: column;
-	background: #fff;
-	width: 50%;
-	margin: auto;
-	text-align: center;
-	padding: 20px;
-	box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2);
 }
+
 .info span {
-	background: #336;
-	margin: 5px;
-	width: auto;
-	color: #fff;
-	padding: 10px;
-	border-radius: 50px;
+  background: #336;
+  margin: 5px;
+  width: auto;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50px;
 }
 
 .minimize {
   background: #336;
 }
-
 
 /* .msm {
 	color: red;
@@ -180,23 +189,48 @@ footer {
 }
 
 .acc {
-	background: #fec901;
-	padding: 10px;
-	height: 150px;
-	width: 50%;
-	margin: auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-bottom: 10px;
-	cursor: pointer;
-	transition: 0.3s;
+  background-color: #673AB7;
+  padding: 10px;
+  height: 150px;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
-.acc span {
-	font-size: 40px;
+.acc a {
+  font-size: 40px;
+  color: #fff;
+  text-decoration: none;
 }
 
-.acc:hover{
+.acc:hover {
   width: 100%;
+  background-color: #db4000;
+}
+
+footer img {
+  border-radius: 100%;
+  vertical-align: middle;
+}
+
+footer span {
+  margin-right: 20px;
+}
+
+.des {
+  width: 100%;
+  background: #0F94E9;
+  color: #fff;
+  height: 550px;
+  font-size: 80px;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+  margin-top: -35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

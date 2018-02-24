@@ -11,12 +11,14 @@
 	include('header.php');
 	?>
   <div class="container">
-
+   <div class="des">
+       <span>اولین پروژه با زبان PHP</span>
+   </div>
     <div class="acc">
-         <span>ورود</span>
+         <a href="/php-project/login.php">ورود</a>
     </div>
     <div class="acc">
-        <span>ثبت نام</span>
+        <a href="/php-project/register.php">ثبت نام</a>
     </div>
 
    </div>
