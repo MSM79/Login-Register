@@ -7,8 +7,8 @@
 	<div class="feu">
 		<a href="/php-project">صفحه اصلی</a>
   	<a href="/php-project/register">ثبت نام</a>
-  	<a href="login">ورود</a>
-  	<a>درباره ما</a>
+  	<a href="/php-project/login">ورود</a>
+  	<a href="/php-project/contact">درباره ما</a>
   	<a>ارتباط با ما</a>
 	</div>
 </header>
