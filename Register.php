@@ -19,15 +19,14 @@
      	 <input type="password" name="pass" placeholder="رمز عبور">
   		 <input type="password" name="rpass" placeholder="تکرار رمز عبور">
        <input type="email" name="email" placeholder="ایمیل">
-       <input type="submit" value="ثبت نام" class="reg-sub" id="sub">
+       <input type="submit" value="ثبت نام" class="reg-sub" id="sub" onclick="val()">
      </form>
    </div>
      </div>
       <script>
-       var a = document.getElementById('sub');
-       a.addEventListener('click', function () {
-         window.location.replace("http://example.com/");
-       });
+      function val() {
+        alert("ثبت نام با موفقیت انجام شد");
+      }
      </script>
   </body>
 </html>
