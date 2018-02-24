@@ -9,6 +9,7 @@
     <?php
    include('header.php');
    ?>
+   <div class="container">
     <div class="reg">
      <form name="Login" action="action_register.php" method="post">
        <span>حساب کاربری خود را بسازید</span>
@@ -17,6 +18,7 @@
   		 <input type="password" name="rpass" placeholder="تکرار رمز عبور">
        <input type="submit" value="ورود" class="reg-sub" id="sub">
      </form>
+   </div>
    </div>
   </body>
 </html>
