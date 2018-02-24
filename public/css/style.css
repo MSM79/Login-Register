@@ -18,7 +18,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #f8f8f8;
   height: 100px;
   padding: 0 2%;
   color: #333;
@@ -164,10 +163,6 @@ footer {
   color: #fff;
   padding: 10px;
   border-radius: 50px;
-}
-
-.minimize {
-  background: #336;
 }
 
 /* .msm {

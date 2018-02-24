@@ -10,7 +10,6 @@ function minimize(arg) {
 function normal(arg) {
   arg.classList.add('normal');
   arg.classList.add('logo');
-  arg.classList.remove('minimize');
   arg.classList.remove('size');
 }
 
