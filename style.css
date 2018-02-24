@@ -94,10 +94,12 @@ footer {
   padding: 10px 2%;
   border-radius: 5px;
   box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2);
+
 }
 
 .reg form input[type=text], input[type=email], input[type=password] {
   padding: 8px 15px;
+	font-size: 16px;
   border-radius: 20px;
   margin: 7px;
   border: 1px solid #c2c2c2;
