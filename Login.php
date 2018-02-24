@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="public/css/font.css">
+  </head>
+  <body>
 <?php include('includes/header.php'); ?>
 <div class="container">
   <div class="reg">
@@ -10,4 +19,8 @@
    </form>
   </div>
 </div>
-<?php include('footer.php'); ?>
+<?php
+include('includes/footer.php');
+?>
+</body>
+</html>

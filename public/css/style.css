@@ -20,12 +20,12 @@ body {
   justify-content: space-between;
   height: 100px;
   padding: 0 2%;
-  color: #333;
+  color: #fff;
   margin-left: 10%;
 }
 
 .size {
-	height: 150px;
+	height: 120px;
 	border-bottom-left-radius: 50px;
 	border-bottom-right-radius: 50px;
 }
