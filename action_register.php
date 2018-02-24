@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php include('includes/header.php'); ?>
    <div class="container">
    <div class="msm">
 <?php
@@ -31,8 +31,8 @@
   if ($pass != $rpass) {
   exit("کلمه عبور با هم مشابه نیست");
   }
-  if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
-    # code...
+  if (filter_var($email, FILTER_VALIDATE_EMAIL)===false) {
+    exit("ایمیل اشتباه است");
   }
 ?>
 </div>
@@ -48,4 +48,4 @@
   }
 ?>
 </div>
-<?php include('footer.php'); ?>
+<?php include('includes/footer.php'); ?>

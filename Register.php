@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>register</title>
-    <link rel="stylesheet" href="/public/css/style.css">
-  </head>
-  <body>
+
     <?php
  	  include('includes/header.php');
  	?>
@@ -24,12 +17,10 @@
    </div>
      </div>
      <?php
-  include('footer.php');
+  include('includes/footer.php');
   ?>
       <script>
       function val() {
         alert("ثبت نام با موفقیت انجام شد");
       }
      </script>
-  </body>
-</html>
