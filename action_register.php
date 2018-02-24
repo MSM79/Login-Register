@@ -1,68 +1,51 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>User</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <?php
-   include('header.php');
-   ?>
+<?php include('header.php'); ?>
    <div class="container">
    <div class="msm">
-
-
-    <?php
-$fname = $_POST['fname'];
-$lname = $_POST['lname'];
-$username = $_POST['username'];
-$pass = $_POST['pass'];
-$rpass = $_POST['rpass'];
-$email = $_POST['email'];
-$in = 0;
-
-if (empty($fname)) {
-  exit("فیلد خالی را پر کنید");
-}
-if (empty($lname)) {
-  exit("فیلد خالی را پر کنید");
-}
-if (empty($username)) {
-  exit("فیلد خالی را پر کنید");
-}
-if (empty($pass)) {
-  exit("فیلد خالی را پر کنید");
-}
-if (empty($rpass)) {
-  exit("فیلد خالی را پر کنید");
-}
-if (empty($email)) {
-  exit("فیلد خالی را پر کنید");
-}
-if ($pass != $rpass) {
-exit("کلمه عبور با هم مشابه نیست");
-}
-if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
-  # code...
-}
-     ?>
-     </div>
-     <div class="info">
-       <h2>اطلاعات کاربر</h2>
 <?php
-if ($in === 0) {
-echo ("<span>نام : " . $fname . "</span>");
-echo ("<span>نام خانوداگی : " . $lname . "</span>");
-echo ("<span>نام کاربری : " . $username . "</span>");
-echo ("<span>رمز عبور: " . $pass . "</span>");
-echo ("<span>ایمیل : " . $email . "</span>");
-}
- ?>
- </div>
- <?php
-include('footer.php');
+  $fname = $_POST['fname'];
+  $lname = $_POST['lname'];
+  $username = $_POST['username'];
+  $pass = $_POST['pass'];
+  $rpass = $_POST['rpass'];
+  $email = $_POST['email'];
+  $in = 0;
+
+  if (empty($fname)) {
+    exit("فیلد خالی را پر کنید");
+  }
+  if (empty($lname)) {
+    exit("فیلد خالی را پر کنید");
+  }
+  if (empty($username)) {
+    exit("فیلد خالی را پر کنید");
+  }
+  if (empty($pass)) {
+    exit("فیلد خالی را پر کنید");
+  }
+  if (empty($rpass)) {
+    exit("فیلد خالی را پر کنید");
+  }
+  if (empty($email)) {
+    exit("فیلد خالی را پر کنید");
+  }
+  if ($pass != $rpass) {
+  exit("کلمه عبور با هم مشابه نیست");
+  }
+  if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    # code...
+  }
 ?>
-     </div>
-  </body>
-</html>
+</div>
+<div class="info">
+<h2>اطلاعات کاربر</h2>
+<?php
+  if ($in === 0) {
+    echo ("<span>نام : " . $fname . "</span>");
+    echo ("<span>نام خانوداگی : " . $lname . "</span>");
+    echo ("<span>نام کاربری : " . $username . "</span>");
+    echo ("<span>رمز عبور: " . $pass . "</span>");
+    echo ("<span>ایمیل : " . $email . "</span>");
+  }
+?>
+</div>
+<?php include('footer.php'); ?>

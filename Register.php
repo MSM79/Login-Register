@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>register</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/public/css/style.css">
   </head>
   <body>
     <?php
- 	include('header.php');
+ 	  include('includes/header.php');
  	?>
   <div class="container">
     <div class="reg">
