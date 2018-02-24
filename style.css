@@ -94,7 +94,6 @@ footer {
   padding: 10px 2%;
   border-radius: 5px;
   box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2);
-
 }
 
 .reg form input[type=text], input[type=email], input[type=password] {
@@ -178,4 +177,26 @@ footer {
 
 .normal {
   height: 100px;
+}
+
+.acc {
+	background: #fec901;
+	padding: 10px;
+	height: 150px;
+	width: 50%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.acc span {
+	font-size: 40px;
+}
+
+.acc:hover{
+  width: 100%;
 }
